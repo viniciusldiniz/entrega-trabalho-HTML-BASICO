@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="Assets/css/base.css"/>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <nav>
+                <ul>
+                    <li class="button"><a href="index.html">Página Principal</a></li>
+                    <li class="button"><a href="Clinica.html">Sobre a Clínica</a></li>
+                    <li class="button"><a href="Atendimento.html">Horário de Atendimento</a></li>
+                    <li class="button"><a href="Contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main">
+            <div class="header"> <!---Imagem do header-->
+                <header>
+                    <img src="/Assets/Img/TESTE3.png   " alt="Imagem Principal" height="210" width="1250" />
+                </header>
+            </div>
+
+            <div class="content">
+                <h1>Entre em Contato</h1>
+
+                <div class="contact-info">
+                    <h2>Informações de Contato</h2>
+                    <p>Telefone: (XX) XXXX-XXXX (Celular e Whatsapp)</p>
+                    <p>Endereço: Rua Exemplo, 1234 - Bairro, Cidade - Estado</p>
+                </div>
+
+                <div class="map-container">
+                    <h2>Localização</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.678910111213!2d-46.000000!3d-23.000000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDI5JzA4LjEiUyA0NsKwMDEnMDcuNCJX!5e0!3m2!1spt-BR!2sbr!4v1566884076824!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Formulário de Contato</h2>
+                    <form action="submit_form.php" method="post">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" id="assunto" name="assunto" required>
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                        <div class="buttons">
+                            <button class="button2" type="submit">Enviar</button>
+                            <button class="button2" type="reset">Limpar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+
+            <footer>
+                <div class="footer">
+                    <h3>Informações de Contato</h3>
+                    <p>Telefone: (XX) XXXX-XXXX (Celular e Whatsapp)</p>
+                    <p>Endereço: Rua Exemplo, 1234 - Bairro, Cidade - Estado</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <hr />
+</body>
+
+</html>
