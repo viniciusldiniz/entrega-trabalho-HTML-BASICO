@@ -132,7 +132,7 @@ tr:nth-child(even) {
 }
 
 .contact-info, .contact-form {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     text-align: center;
 }
 
@@ -150,7 +150,7 @@ tr:nth-child(even) {
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
-    width: 100%; /* Alterado para ocupar toda a largura */
+    width: 70%; /* Alterado para ocupar toda a largura */
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
